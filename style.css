@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?família=Ubuntu+Mono:ital,wght@1,400; 1.700&display=swap');
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family:  'Ubuntu Mono', monospace;
+    list-style: none;
+    text-decoration: none;
+
+
+}
+
+body{
+    background: url(./img/1544324.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+
+}
+
+header{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 10px 48px;
+
+
+}
+
+header .logo{
+
+    width: 150px;
+
+}
+.navigation ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.navigation ul li a{
+     color: #fff;
+     font-size: 18px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid transparent;
+    transition: all .6s;
+
+
+}
+.navigation ul li a:hover{
+     border-bottom: 2px solid #138ecc;
+
+
+
+}
+.navigation .search{
+     width: 22px;
+     cursor: pointer;
+    filter: invert(1);
+}
+.navigation .perfil{
+    width: 40px;
+    cursor: pointer;
+
+}
+
+/*main*/
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 50em;
+    margin-top: 1.5em;
+}
+
+main section{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 2.5;
+
+}
+
+main section .logona{
+    width:  35em;
+    margin: 3em 0;
+
+}
+
+main section .btn-box{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.btn-box .btn{
+    padding: 20px 45px;
+    background: #425265;
+    color: #fff;
+    margin: 2em;
+    border-bottom: 2px solid #fff;
+    transition: all .3s;
+}
+
+.btn-box .btn:hover{
+
+    background: #2d3846;
+
+}
+
+.btn-box .btn:focus{
+  
+     background: #2d3846;
+
+}
+
+main section .taxt{
+
+    color: #fff;
+    line-height: 22px;
+
+}
+
+.btn-box2{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    background: #0f79af;
+    padding: 15px 45px;
+    margin-top: 2em;
+    border-radius: 10px 10px 0 0;
+    border-bottom: 4px solid #fff;
+    font-size: 40px;
+    gap: 15px;
+    cursor: pointer;
+    transition: all .3s;
+
+}
+
+.btn-box2:hover{
+    background: #138ecc;
+
+}
+
+.btn-box2 .play{
+
+    width: 1.4em;
+    filter: invert(1);
+
+}
